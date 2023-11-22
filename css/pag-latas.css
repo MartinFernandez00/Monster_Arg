@@ -1,0 +1,177 @@
+
+/* Foto-elije-sabor */
+.elijesabor{
+    position: absolute;
+    left: 0%;
+    top: 110px;
+}
+
+/* TEXTO DEBAJO DE LA IMAGEN */
+.imagenes-latas {
+    cursor: pointer;
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+}
+
+.texto-con-fondo {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    text-align: center; /* Centrar horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente */
+    align-items: center; /* Centrar verticalmente */
+    transition: opacity 0.3s;
+    width: 47%; /* Ancho del 47% */
+    left: 25%; /* Posición con left al 70% */
+    top: 70%;
+}
+
+/* PERSONALIZACION TEXTO - IMG LATAS */
+.texto-con-fondo h4{
+    color: #0151ff;
+}
+.texto-con-fondo h6{
+    color: #b2c5cc;
+}
+
+/* TEXTO GENERal */
+.titulo {
+    color: #1add00; /* Texto del título en negro oscuro */
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-bottom: 5px; /* Espacio entre el título y el texto descriptivo */
+}
+
+.descripcion {
+    color: #b2c5cc; /* Texto descriptivo en blanco */
+    font-size: 16px; /* Tamaño de fuente del texto descriptivo */
+}
+
+
+/* LATAS MONSTER */
+
+/**Imagen Monster N01-00**/
+.mons1 {
+    position: absolute;
+    left: 5%;
+    top: 350px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.mons2 {
+    position: absolute;
+    left: 20%;
+    top: 300px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.mons3 {
+    position: absolute;
+    left: 33%;
+    top: 270px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons3:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.mons4 {
+    position: absolute;
+    left: 46%;
+    top: 250px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons4:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.mons5 {
+    position: absolute;
+    left: 60%;
+    top: 270px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons5:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.mons6 {
+    position: absolute;
+    left:73%;
+    top: 300px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons6:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.mons7 {
+    position: absolute;
+    left: 88%;
+    top: 350px;
+    height: 27%;
+    width: 6%;
+    cursor: pointer;
+
+}
+
+/**TRANSICION ZOOM IMAGEN**/
+.mons7:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+/* RECTANGULO */
+.rectangulo {
+    position: absolute;
+    width: 100%; /* Ancho igual al de la imagen */
+    height: 100%; /* Alto igual al de la imagen */
+    background-color: red; /* Color de fondo del rectángulo */
+    opacity: 0; /* Inicialmente transparente */
+    pointer-events: none; /* Evita que el rectángulo interfiera con los eventos del mouse en la imagen */
+}

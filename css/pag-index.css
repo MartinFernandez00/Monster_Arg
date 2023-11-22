@@ -1,0 +1,35 @@
+.img-bienvenidos{
+    position: absolute;
+    left: 23%;
+    top: 140px;
+}
+.logo-redsocial{
+    position: absolute;
+    top: 89%;
+    left: 1%;
+    cursor: pointer;
+}
+.firma{
+    position: absolute;
+    left: 75%;
+    top: 87%;
+}
+.conjunto-latas{
+    position: absolute;
+    left: 24%;
+    top: 32%;
+}
+
+/* ICONOS */
+.iconos{
+    position: absolute;
+    top: 580px;
+    left: 40%;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+.iconos a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<!--sincronizacion-->
+    <meta charset="UTF-8">
+
+    <title>Monster ING</title>
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/pag-latas.css">
+    <link rel="stylesheet" href="css/menuinicio.css">
+
+
+    <link rel="stylesheet" href="css/img-ilustrativa.css">
+    <link rel="stylesheet" href="css/barramonster.css">
+    <link rel="stylesheet" href="css/imglogo.css">
+    <link rel="stylesheet" href="css/carouselExampleIndicators.css">
+    <link rel="stylesheet" href="css/pag-experiencias.css">
+
+    <word-spacing: 8px></word-spacing:>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script type="module" src="js/firebase.js"></script>
+    <script src="js/app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+</head>
+
+
+<body>
+
+
+<!-- FONDO MENU -->
+<div class="img-barramenu">
+    <img src="img/fondo/fondo menu degrade.png" width="100%">
+</div>
+
+    <header>
+        <nav class="menu">
+            <img src="img/Logo/log monster-games.png" width="200px">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="pag-experiencias.html">EXPERIENCIAS</a></li>
+                    <li><a href="pag-competencias.html">COMPETENCIAS</a></li>
+                    <li><a href="pag-latas.html">BEBIDAS</a></li>
+                </ul>
+        </nav>
+    </header>
+
+<!-- add button -->
+    <div class="container">
+    <button class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#agregarEditarModal">
+    Añadir Experiencia
+    </button>
+    </div>
+
+    <div class="exp-dejamarca">
+        <img src="img/Logo/dejamarca.PNG">
+    </div>
+
+<!-- MAIN CONTENT -->
+    <main class="container" id="contenedorLibros">
+    
+    </main>
+
+
+
+<!--Modal Agregar Imagen-->
+<div class="modal fade" id="agregarEditarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Comparte tus aventuras</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <form id="agregarEditarForm" onsubmit="return false">
+
+                    <input type="hidden" id="txtId">
+
+                    <label for="txtNombre" class="form-label">Titulo del Viaje:</label>
+                    <input type="text" id="txtNombre" class="form-control mb-3">
+
+                    <label for="txtAutor" class="form-label">Fecha:</label>
+                    <input type="text" id="txtAutor" class="form-control mb-3">
+
+                    <label for="txtPortadaUrl" class="form-label">Url de la imagen:</label>
+                    <input type="text" id="txtPortadaUrl" class="form-control mb-3">
+
+                    <label for="txtSinopsis" class="form-label">Anecdota:</label>
+                    <textarea id="txtSinopsis" class="form-control mb-3" rows="3"></textarea>
+
+                    <input type="submit" value="Publicar" class="form-control btn btn-primary" onclick="applibros.guardarLibros();">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

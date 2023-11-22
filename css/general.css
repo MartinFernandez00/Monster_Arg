@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(/img/fondo/fondo_img.PNG);
+}
+
+/* Menu de inicio general */
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+.menu h1{
+    color: white;
+    font-size: 40px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(43, 255, 0);
+}
+
+/* Barra menu fondo IMG */
+.img-barramenu{
+    position: absolute;
+    z-index:-1;
+    width: 100%;
+}
