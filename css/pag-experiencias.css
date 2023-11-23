@@ -3,7 +3,7 @@
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #contenedorLibros img {

@@ -3,7 +3,6 @@
 }
 body{
     background-image: url(/img/fondo/fondo_img.PNG);
-    background-color: black;
 }
 /* Menu de inicio general */
 .menu{
@@ -24,7 +23,7 @@ body{
     padding: 0px 20px;
 }
 .menu a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .menu a:hover{

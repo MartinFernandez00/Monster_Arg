@@ -1,5 +1,4 @@
 
-
 .img-bienvenidos{
     position: absolute;
     left: 23%;
@@ -32,6 +31,6 @@
     cursor: pointer;
 }
 .iconos a{
-    color: white;
+    color: rgb(141, 106, 106);
     text-decoration: none;
 }
