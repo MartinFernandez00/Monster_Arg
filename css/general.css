@@ -3,6 +3,7 @@
 }
 body{
     background-image: url(/img/fondo/fondo_img.PNG);
+    background-color: black;
 }
 /* Menu de inicio general */
 .menu{

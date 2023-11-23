@@ -1,3 +1,6 @@
+body{
+  background-color: black;
+}
 
 /* Estilo para el contenedor del carrusel */
 #carouselExampleIndicators {
