@@ -78,6 +78,7 @@ eliminarLibro: (idAEliminar,nombreABorrar)=>{
 
     guardarLibros: ()=>{
 
+
         const txtId=document.getElementById("txtId");
         const txtNombre=document.getElementById("txtNombre");
         const txtAutor=document.getElementById("txtAutor");
@@ -105,6 +106,7 @@ eliminarLibro: (idAEliminar,nombreABorrar)=>{
             "sinopsis":txtSinopsis.value,
         };
         console.log(libroAGuardar);
+
         fetch(urlApi, {
             method: metodoHttp,
             headers: {
@@ -114,7 +116,7 @@ eliminarLibro: (idAEliminar,nombreABorrar)=>{
             })  
             .then(response => {
                 console.log(response);
-                window.location.href="index.html";
+                window.location.href="pag-experiencias.html";
             });
     },
     editarLibro:(idLibroAEditar)=>{
