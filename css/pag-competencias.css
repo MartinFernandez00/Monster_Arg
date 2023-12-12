@@ -16,12 +16,6 @@
   object-fit: auto;
 }
 
-/* Estilo para los botones de control del carrusel */
-.carousel-control-prev,
-.carousel-control-next {
-  display: none; 
-}
-
 .img-sponsors .img1{
   position: absolute;
   top: 60%;
@@ -56,4 +50,18 @@
   position: absolute;
   left: 3%;
   top: 120px;
+}
+
+/* Color de las flechas */
+/* Estilo para los botones de control del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none; 
+  width: 100px; /* Ancho de las flechas */
+  height: 450px; /* Altura de las flechas */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #51ff00; /* Color de las flechas */
+  border: 5px solid #2c3e50; /* Borde de las flechas */
 }
