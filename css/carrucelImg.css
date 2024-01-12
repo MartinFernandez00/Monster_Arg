@@ -121,7 +121,7 @@ main {
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
+    z-index: 1;
     user-select: none;
 
     & .btn {
@@ -177,7 +177,7 @@ main {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
     .content {
         & .title {
             font-size: 0.9rem;
@@ -193,7 +193,7 @@ main {
     }
 
     .item {
-        width: 130px;
+        width: 100px;
         height: 220px;
 
         &:nth-child(3) {

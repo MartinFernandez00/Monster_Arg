@@ -1,3 +1,7 @@
+body{
+    background-image: url(/img/fondo/fondo_img.PNG);
+}
+
 
 #contenedorLibros{
     display: grid;

@@ -1,9 +1,7 @@
 *{
     font-family: sans-serif;
 }
-body{
-    background-image: url(/img/fondo/fondo_img.PNG);
-}
+
 /* Menu de inicio general */
 .menu{
     display: flex;
@@ -13,6 +11,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     font-weight: bold;
+    z-index: 1;
 }
 .menu h1{
     color: white;
@@ -33,6 +32,6 @@ body{
 /* Barra menu fondo IMG */
 .img-barramenu{
     position: absolute;
-    z-index:-1;
+    z-index: -1;
     width: 100%;
 }
