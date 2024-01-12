@@ -22,8 +22,8 @@ main {
 } */
 
 .item {
-    width: 200px;
-    height: 300px;
+    width: 180px;
+    height: 200px;
     list-style-type: none;
     position: absolute;
     top: 50%;
