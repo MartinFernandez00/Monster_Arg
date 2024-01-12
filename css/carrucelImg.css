@@ -141,16 +141,12 @@ main {
 
 @media (max-width: 900px) and (min-width: 650px) {
     .content {
-        & .title {
-            font-size: 1rem;
-        }
 
-        & .description {
-            font-size: 0.7rem;
-        }
-
+        & .title,
+        & .description,
         & button {
             font-size: 0.7rem;
+            /* Ajustar el tamaño de fuente para dispositivos medianos */
         }
     }
 
@@ -179,16 +175,12 @@ main {
 
 @media (max-width: 500px) {
     .content {
-        & .title {
-            font-size: 0.9rem;
-        }
 
-        & .description {
-            font-size: 0.65rem;
-        }
-
+        & .title,
+        & .description,
         & button {
             font-size: 0.7rem;
+            /* Ajustar el tamaño de fuente para dispositivos pequeños */
         }
     }
 
