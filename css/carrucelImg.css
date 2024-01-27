@@ -1,6 +1,6 @@
 
 .item {
-    width: 180px;
+    width: 100px;
     height: 200px;
     list-style-type: none;
     position: absolute;
@@ -30,15 +30,15 @@
     }
 
     &:nth-child(4) {
-        left: calc(50% + 220px);
+        left: calc(50% + 130px);
     }
 
     &:nth-child(5) {
-        left: calc(50% + 440px);
+        left: calc(50% + 270px);
     }
 
     &:nth-child(6) {
-        left: calc(50% + 660px);
+        left: calc(50% + 0px);
         opacity: 0;
     }
 }
